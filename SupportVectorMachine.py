@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 
-data = pd.read_csv('./datasets/support_vector_machine/Iris.csv')
+data = pd.read_csv('datasets/SupervisedLearning/support_vector_machine/Iris.csv')
 data.drop("Id", axis=1)
 
 sb.pairplot(data, hue="Species")

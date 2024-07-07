@@ -5,7 +5,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-data = pd.read_csv('./datasets/decision_tree/kyphosis.csv')
+data = pd.read_csv('datasets/SupervisedLearning/decision_tree/kyphosis.csv')
 x = data.drop('Kyphosis', axis=1)
 y = data['Kyphosis']
 

@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
-data = pd.read_csv('./datasets/linear_regression/youtube_channels.csv')
+data = pd.read_csv('datasets/SupervisedLearning/linear_regression/youtube_channels.csv')
 
 X_train, X_test, y_train, y_test = train_test_split(np.asarray(data.Num_Videos),
                                                     data.Total_Views, test_size=0.20)

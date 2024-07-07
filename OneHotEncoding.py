@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import  LabelBinarizer
-data = pd.read_csv('./datasets/one_hot_encoding/student_data.csv')
+data = pd.read_csv('datasets/DPAndMLTechniques/one_hot_encoding/student_data.csv')
 
 result_category = data['results']
 

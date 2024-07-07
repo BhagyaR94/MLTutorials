@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression
 
 
-data = pd.read_csv('./datasets/logistic_regression/people_dataset.csv')
+data = pd.read_csv('datasets/SupervisedLearning/logistic_regression/people_dataset.csv')
 
 plt.scatter(data.Age, data.Employment_Status)
 # plt.show()

@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, precision_score
 
-data = pd.read_csv('./datasets/k_nearest_neighbours/Iris.csv')
+data = pd.read_csv('datasets/SupervisedLearning/k_nearest_neighbours/Iris.csv')
 
 x = data.iloc[:, 1:5]  # iloc -> index location [rows, columns]
 y = data.iloc[:, -1]

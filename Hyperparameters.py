@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
 
-data = pd.read_csv('./datasets/hyperparameters/Iris.csv')
+data = pd.read_csv('datasets/DPAndMLTechniques/hyperparameters/Iris.csv')
 x = data.drop("Species", axis=1)
 y = data['Species']
 

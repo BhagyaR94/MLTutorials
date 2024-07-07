@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.model_selection import cross_val_score
 
-data = pd.read_csv('./datasets/cross_validation/Iris.csv')
+data = pd.read_csv('datasets/DPAndMLTechniques/cross_validation/Iris.csv')
 x = data.drop("Species", axis=1)
 y = data['Species']
 
